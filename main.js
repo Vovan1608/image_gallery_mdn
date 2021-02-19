@@ -29,8 +29,8 @@ const handleClickBtn = () => {
 
   let [className, textContent, alphaChanel] = arrOfParams;
 
-  btn.setAttribute("class", `${className}`);
-  btn.textContent = `${textContent}`;
+  btn.setAttribute("class", className);
+  btn.textContent = textContent;
   overlay.style.backgroundColor = `rgba(0,0,0,${alphaChanel})`;
 };
 
